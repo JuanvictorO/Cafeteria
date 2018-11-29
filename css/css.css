@@ -1,0 +1,108 @@
+header{
+	margin-top: 0;
+	width: 100%;
+	height: 50px;
+	opacity: 0.8;
+	background-color: rgb(20, 20, 20);
+	text-align: center;
+	color: white;
+}
+img{
+	height: 40px;
+	width: 40px;
+	margin: auto 20px;
+}
+header h1{
+	padding-top: 4px;
+	margin-top: 0;	
+}
+body{
+	background-image: url("../img/cafe1.jpg");
+	background-size: cover;
+}
+body button{
+	margin-left: auto;
+	margin-right: auto;
+}
+main{
+	text-align: center;
+	margin: 0 auto;
+}
+.first{
+	width: 240px;
+}
+.botao{
+	color: rgba(150,150,150,0.8);
+	background-color: black;
+	width: 215px;
+	height: 90px;
+	border: none;
+	font-size: 4em;
+	display: inline;
+	opacity: 0.9;
+	margin-left: 41.5vw;
+}
+.botao:hover{
+	-moz-transform: scale(1.3);
+		-webkit-transform: scale(1.3);
+		-o-transform: scale(1.3);
+		-webkit-transition: 2s all ease;
+		background-color: black;
+}
+.botao1{
+	color: rgba(150,150,150,0.8);
+	background-color: black;
+	width: 238px;
+	height: 90px;
+	border: none;
+	font-size: 4em;
+	display: inline;
+	opacity: 0.9;
+	margin-left: 40.8vw;
+	position: relative;
+}
+#card{
+	position: absolute;
+	right: 0;
+}
+#menu{
+	height: 380px;
+	width: 420px;
+	font-size: 2em;
+	color: #FFFAFA;
+	background-color: black;
+	opacity: 0.7;
+}
+.botao1:hover{
+	-moz-transform: scale(1.3);
+		-webkit-transform: scale(1.3);
+		-o-transform: scale(1.3);
+		-webkit-transition: 2s all ease;
+		background-color: black;
+}
+.botao, .botao1{
+	float: left;
+	display: inline;
+}
+.larg{
+	text-align: center;
+	width: auto;
+	height: auto;
+	float: left;
+		margin-top: 100px;
+}
+table{
+	color: white;
+	background-color: black;
+	font-size: 1.5em;
+	margin-top: 200px;
+}
+tbody{
+	background-color: black;
+	opacity: 0.8;
+}
+thead, tfoot{
+	background-color:#1C1C1C;
+	opacity: 0.8;
+}
+
